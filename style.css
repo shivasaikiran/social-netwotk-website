@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.one{padding: 10px;
+    border: 10px;
+    background-color: yellowgreen;
+    width: 30%;
+}
+.two{
+    background-color: gray;
+    padding: 10px;
+    border: 10px;
+    width: 70%;
+}
+table,th,td{
+    border:1px solid;
+}
+th{
+    background-color:red;
+    color: aliceblue;
+}
+td{
+    background-color: bisque;
+}
+
+.container{
+    display: flex;
+}
+/* center the image */
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* center the table  */
+table {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+h2{
+    text-align: center;
+}
+.menu{
+    text-align: start;
+}
+
+ul {
+  list-style-type: square;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+li:hover{
+    background-color: white;
+}
+
